@@ -5,6 +5,7 @@
         <link href="styles/style.css" rel="stylesheet">
         <link hef="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
     </head> 
+    
         <header id="header">
             <img id="header-img" src="/home/marko/web-project/Product-Landing-Page/images/icon.png" alt="Guitar icon">
             <nav id="nav-bar">
@@ -12,11 +13,13 @@
                 <a class="nav-link" href="#how-it-works">How It Works</a>
                 <a class="nav-link" href="#pricing">Pricing</a>
             </nav>
+            
         </header>
+    
         <main>
             <form id="form">
                 <h1>Handcrafted, home-made masterpieces</h1>
-                <input type="email" required placeholder="Enter your email address">
+                <input id="email" type="email" required placeholder="Enter your email address">
                 <input id="submit" type="submit" value="GET STARTED"></input>
             </form>
 
@@ -39,7 +42,7 @@
             </section>
 
             <div id="how-it-works">
-                <iframe src="https://www.youtube.com/watch?v=E-nxivOgJwA" frameborder="0"></iframe>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/E-nxivOgJwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <section id="pricing">
@@ -79,6 +82,7 @@
                 </nav>
                 <p>Copyright 2020, Roda Guitars</p>
             </footer>
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
+            
     </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
 </html>    
